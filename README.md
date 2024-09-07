@@ -1,4 +1,4 @@
-# Lunar Lander using Deep Q-Network (DQN)
+# DQN-Lunar-Lander
 
 <p align="center">
   <img height=275 src="dqn-run.gif" >
