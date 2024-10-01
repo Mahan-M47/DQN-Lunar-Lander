@@ -4,6 +4,9 @@
   <img height=275 src="dqn-run.gif" >
 </p>
 
+<p align="center"> <b>This GIF is a solution generated using the code in this repository.</b> </p>
+<br>
+
 This repository contains a solution for the **Lunar Lander** environment from OpenAI Gym, using **PyTorch** and **Deep Q-Networks (DQN)**. The goal of the project is to train an agent to safely land a spacecraft between two flags, using a reinforcement learning algorithm. 
 
 In reinforcement learning, The agent learns by interacting with the environment, taking actions, and receiving rewards, ultimately improving its landing skills over time
