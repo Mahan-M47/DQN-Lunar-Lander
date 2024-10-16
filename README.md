@@ -51,7 +51,7 @@ The agent can choose from 4 discrete actions:
 
 ## Model Details
 
-The Deep Q-Network (DQN) is implemented using **PyTorch**. Key model components include:
+The Deep Q-Network (DQN) is implemented using **PyTorch**. DQNs are based on Q-Learning, which aims to learn the value (or "Q-value") of taking a certain action in a given state. If the Q-value is high, the action will likely lead to a higher reward in the long run. Key model components include:
 
 - **Q-Network**: A neural network that estimates Q-values for each action based on the current state. It consists of:
     - Input layer: 8 units (corresponding to the state space).
