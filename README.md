@@ -62,6 +62,10 @@ The Deep Q-Network (DQN) is implemented using **PyTorch**. Key model components 
 
 The model was trained over 500 episodes, periodically printing the average reward of the last 50 episodes. **AdamW** was used as the optimizer.
 
+<p align="center">
+  <img height=275 src="Reward.png" >
+</p>
+
 ### Key Techniques:
 
 - **Replay Memory**: The agent stores experiences (state, action, reward, next state, done) in a deque data structure. Random batches of experiences are sampled for training, which helps break correlations in data and stabilize learning.
